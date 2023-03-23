@@ -1,0 +1,16 @@
+*.suo
+
+[Dd]ebug/
+[Rr]elease/
+
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+*.user
+*.userosscache
+
+[Bb]in/
+[Oo]bj/
+
+.vs/

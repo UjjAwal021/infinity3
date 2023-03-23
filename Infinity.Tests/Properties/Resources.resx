@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Git_AddPullRequestReviewer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.AddPullRequestReviewer.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_CreatePullRequest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.CreatePullRequest.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_CreateRepository" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.CreateRepository.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetBlob" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetBlob.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetBranchStatistics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetBranchStatistics.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetBranchStatisticsAgainstVersion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetBranchStatisticsAgainstVersion.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetBranchStatisticsForAllBranches" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetBranchStatisticsForAllBranches.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetCommit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetCommit.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetCommits" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetCommits.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetCommitsBetweenTwoRevisions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetCommitsBetweenTwoRevisions.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetCommitsByCommitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetCommitsByCommitter.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetCommitsByDate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetCommitsByDate.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetCommitsByItem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetCommitsByItem.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetCommitsPaged" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetCommitsPaged.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetCommitsToRevision" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetCommitsToRevision.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetCommitWithChangedItems" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetCommitWithChangedItems.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetDiff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetDiff.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetItemFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetItemFile.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetItemFolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetItemFolder.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetItemFolderRecursive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetItemFolderRecursive.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetItemsBatch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetItemsBatch.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetPullRequest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetPullRequest.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetPullRequestReviewer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetPullRequestReviewer.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetPullRequestReviewers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetPullRequestReviewers.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetPullRequests" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetPullRequests.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetPullRequestsByStatus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetPullRequestsByStatus.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetPullRequestsByTargetBranch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetPullRequestsByTargetBranch.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetPush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetPush.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetPushCommits" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetPushCommits.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetPushes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetPushes.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetPushesByDate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetPushesByDate.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetPushesByPage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetPushesByPage.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetPushesByPusher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetPushesByPusher.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetPushWithReferences" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetPushWithReferences.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetReferences" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetReferences.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetReferencesWithFilter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetReferencesWithFilter.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetRepositories" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetRepositories.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetRepositoriesForTeamProject" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetRepositoriesForTeamProject.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetRepository" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetRepository.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_GetTree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.GetTree.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_RenameRepository" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.RenameRepository.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_UpdatePullRequest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.UpdatePullRequest.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Git_UpdatePullRequestReviewer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Git.UpdatePullRequestReviewer.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Project_GetProject" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project.GetProject.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Project_GetProjects" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project.GetProjects.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Project_GetProjectWithCapabilities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project.GetProjectWithCapabilities.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Project_UpdateProject" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project.UpdateProject.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="TeamRoom_CreateMessage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeamRoom.CreateMessage.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="TeamRoom_CreateRoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeamRoom.CreateRoom.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="TeamRoom_GetMessage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeamRoom.GetMessage.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="TeamRoom_GetMessages" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeamRoom.GetMessages.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="TeamRoom_GetRoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeamRoom.GetRoom.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="TeamRoom_GetRooms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeamRoom.GetRooms.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="TeamRoom_GetUser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeamRoom.GetUser.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="TeamRoom_GetUsers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeamRoom.GetUsers.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="TeamRoom_UpdateMessage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeamRoom.UpdateMessage.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="TeamRoom_UpdateRoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeamRoom.UpdateRoom.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Team_GetTeam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Team.GetTeam.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Team_GetTeamMembers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Team.GetTeamMembers.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+  <data name="Team_GetTeams" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Team.GetTeams.txt;System.String, System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a;Windows-1252</value>
+  </data>
+</root>
